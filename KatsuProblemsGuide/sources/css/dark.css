@@ -1,14 +1,10 @@
 html {
-    background-color: #181a1b !important;
+    background-color: #000000 !important;
 }
 html, body, input, textarea, select, button {
     border-color: #736b5e;
-    color: #e8e6e3;
-    background-color: #181a1b;
-}
-a:hover {
-    color:darkgoldenrod;
-    text-decoration: none;
+    color: #cccccc;
+    background-color: #000000;
 }
 a {
     color: #3391ff;
@@ -19,9 +15,7 @@ table {
 ::placeholder {
     color: #b2aba1;
 }
-input:-webkit-autofill,
-textarea:-webkit-autofill,
-select:-webkit-autofill {
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
     background-color: #555b00 !important;
     color: #e8e6e3 !important;
 }
@@ -48,6 +42,10 @@ select:-webkit-autofill {
     background-color: #004daa !important;
     color: #e8e6e3 !important;
 }
+a:hover {
+    color:darkgoldenrod;
+    text-decoration: none;
+}
 .menuitem {
     color: #cccccc !important;
 }
@@ -72,10 +70,20 @@ pre {
     position: sticky;
     left: 0px;
     bottom: 0px;
-    background-color: #181a1b;
+    background-color: #000000;
 }
 #menu {
     background-color: #1c1c1c;
     position: sticky;
+    -webkit-position: sticky;
     top: 0px;
+}
+video.byOrion {
+    width: 80%;
+}
+span.menu {
+    float: right;
+    line-height: 250%;
+    font-weight: 549;
+    font-size: 16px;
 }
