@@ -17,13 +17,7 @@
             html {
                 background-color: #920464;
             }
-            img::selection {
-                background: #00000000;
-            }
-            .wack::selection {
-                background: #00000000;
-            }
-            .eye::selection {
+            ::selection, ::-moz-selection {
                 background: #00000000;
             }
             img.louis-img {
@@ -45,13 +39,16 @@
                 top: -6.696452487%;
                 left: 31.25%;
             }
-            .wack {
+            a.wack {
                 position: absolute; 
-                color: #fed0ae !important;
+                color: #00000000;
                 bottom: 42%;
                 left: 35%;
                 font-size: 19px;
                 text-decoration: none;
+            }
+            a:hover.wack {
+                color: #fed0ae99;
             }
             .ohno {
                 position: absolute;
@@ -78,12 +75,15 @@
             a:hover {
                 color: gold;
             }
-            .eye {
+            a.eye {
                 position: absolute;
-                color: #9f0000 !important;
+                color: #00000000;
                 top: 192px;
                 right: 137px;
                 text-decoration: none;
+            }
+            a:hover.eye {
+                color: #9f000099
             }
             .mineta-a {
                 position: absolute;
@@ -94,6 +94,15 @@
                 width: 11%;
                 height: auto;
             }
+            .veryHidden {
+                position: absolute;
+                left: 5px;
+                top: 300px;
+                color: #00000000;
+            }
+            a:hover.veryHidden {
+                color: #92046499;
+            }
         </style>
     </head>
     <body>
@@ -102,9 +111,10 @@
             <h1 class="head">404</h1>
             <a class="wack" href="https://hooman1130.github.io/egg/kana/wack.html">WACK</a>
             <p class="ohno">Oh no! It seems you're lost. Louis here can help.</p>
-            <p class="louis">"I can help.<br>The main page can be found at <a href="../index.html">hooman1130.github.io</a><br>and <a href="./KatsuProblemsGuide/index.html">the Katsu Guide can be found here</a>."<br>-Louis James Moriarty</p>
+            <p class="louis">"I can help.<br>The main page can be found at <a href="./index.html">hooman1130.github.io</a><br>and <a href="https://hooman1130.github.io/KatsuProblemsGuide/index.html">the Katsu Guide can be found here</a>."<br>-Louis James Moriarty</p>
             <a class="eye" href="https://myanimelist.net/mangalist/Hooman1130?order=4&order2=8&status=7" target="_blank">M</a>
-            <a class="mineta-a" href="egg/kana/hentai_tiddies.html"><img src="https://images-ext-1.discordapp.net/external/GSW6rmAJkfworurdLDfbgunEN1OM9PDzAt82UZDO3yI/https/media.discordapp.net/attachments/461340311482925056/461342811640299530/MinetaDerp.png" class="mineta-i"></a>
+            <a class="mineta-a" href="https://hooman1130.github.io/egg/kana/hentai_tiddies.html"><img src="https://images-ext-1.discordapp.net/external/GSW6rmAJkfworurdLDfbgunEN1OM9PDzAt82UZDO3yI/https/media.discordapp.net/attachments/461340311482925056/461342811640299530/MinetaDerp.png" class="mineta-i"></a>
+            <a class="veryHidden" href="./egg/distro/secret.html">NANI?!?!</a>
         </div>
     </body>
 </html>

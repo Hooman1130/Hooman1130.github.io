@@ -1,0 +1,35 @@
+a:hover {
+    color: darkgoldenrod;
+    text-decoration: none;
+}
+.menuitem {
+    color: #1c1c1c !important;
+}
+div.break {
+    clear: both;
+}
+span.float {
+    width: 12em;
+    float: left;
+    font-size: 100%;
+}
+span.ytvid {
+    padding: 0;
+    margin: 0;
+    margin-top: 12px;
+    width: 12em;
+    float: left;
+    font-size: 100%;
+    margin-right: 5.6em;
+}
+pre {
+    position: sticky;
+    left: 0px;
+    bottom: 0px;
+    background-color: #ffffff;
+}
+#menu {
+    background-color: #cccccc;
+    position: sticky;
+    top: 0px;
+}
