@@ -23,7 +23,7 @@ span.ytvid {
     margin-right: 5.6em;
 }
 pre {
-    position: sticky;
+    position: absolute;
     left: 0px;
     bottom: 0px;
     background-color: #ffffff;
