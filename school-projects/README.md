@@ -1,4 +1,4 @@
 # GO AWAY
 **Leave.**
-__Get out.__
+_Get out._
 *You're lucky I'm not being vulgar*
