@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <noscript><style> .jsonly { display: none } </style></noscript>
+    <link rel="stylesheet" href="../KatsuProblemsGuide/sources/css/dark.css">
+    <link rel="icon" href="https://cdn2.iconfinder.com/data/icons/hacker-solid/100/hacker_hacker_human_-512.png">
+    <title>JS Projects</title>
+</head>
+<body>
+    <h1>Hooman's JavaScript Projects</h1>
+    <h4>Here are the links that lead to my JavaScript Projects</h4>
+    <p class="jsonly">
+        Press the buttons to go to the page of the corresponding JavaScript project.<br>
+        These buttons also use with Javascript, by the way.
+        <ul>
+            <li>
+                <button id="edit">Edit</button>
+            </li>
+            <li>
+                <button id="quiz">Quiz</button>
+            </li>
+            <li>
+                <button id="open">Do not click</button>
+            </li>
+        </ul>
+    </p>
+    <noscript>a</noscript>
+    <script>
+        function buttonLink(link) {
+            document.getElementById(link).onclick = function () { open("../js/"+link+".html"); };
+        }
+        buttonLink("edit");
+        buttonLink("quiz");
+        buttonLink("open");
+    </script>
+</body>
+</html>
