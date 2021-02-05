@@ -6,6 +6,15 @@ html, body, input, textarea, select, button {
     color: #cccccc;
     background-color: #000000;
 }
+button {
+    height: 3rem;
+    width: auto;
+    font-size: 1.25rem;
+}
+button > innerText {
+    margin-right: 20%;
+    margin-left: 20%;
+}
 a {
     color: #3391ff;
 }
