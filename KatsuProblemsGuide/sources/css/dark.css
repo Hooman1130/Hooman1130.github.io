@@ -6,7 +6,7 @@ html, body, input, textarea, select, button {
     color: #cccccc;
     background-color: #000000;
 }
-button {
+button.jsbutton {
     height: 3rem;
     width: auto;
     font-size: 1.25rem;
