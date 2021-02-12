@@ -7,7 +7,7 @@ function fuckingAnnoying() {
         xp.play();
     }
     function infiny() {
-        open("./.");
+        open("https://hooman1130.github.io/js/open.html");
         soundo();
         document.querySelector("body").onclick = soundo();
         soundo();
