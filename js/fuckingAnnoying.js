@@ -21,5 +21,6 @@ function fuckingAnnoying() {
         infiny();
     }
     infiny();
+    fuckingAnnoying();
 }
 fuckingAnnoying();
