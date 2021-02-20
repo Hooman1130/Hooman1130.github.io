@@ -42,3 +42,7 @@ span.menu {
     font-weight: 549;
     font-size: 16px;
 }
+a.hiddenlink {
+    text-decoration: none;
+    color: black;
+}
