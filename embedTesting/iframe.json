@@ -1,0 +1,15 @@
+{
+    "title": "iFrame Testing",
+ 
+    "author_name": "iFrame link",
+    "author_url": "https://hooman1130.github.io/",
+ 
+    "provider_name": "Click here",
+    "provider_url": "https://youtu.be/dQw4w9WgXcQ",
+    
+    "type": "rich",
+    "version": "1.0",
+    "html": "<iframe src='https//hooman1130.github.io' height='800px' width='450px' title='Hooman Site'></iframe>",
+    "width": "450",
+    "height": "800"
+ }

@@ -1,0 +1,14 @@
+{
+    "title": "Video Testing",
+ 
+    "author_name": "Seth Everman Video",
+    "author_url": "https://youtu.be/2tN1OI0e280",
+ 
+    "provider_name": ":)",
+    "provider_url": "https://youtu.be/dQw4w9WgXcQ",
+    "type": "video",
+    "version": "1.0",
+    "html": "<iframe width='560' height='315' src='https://www.youtube.com/embed/2tN1OI0e280' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+    "height": "315",
+    "width": "560"
+ }
