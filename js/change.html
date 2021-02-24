@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!-- <html>
+    <head>
+        <title>Change HTML</title>
+        <link rel="stylesheet" href="https://hooman1130.github.io/KatsuProblemsGuide/sources/css/dark.css">
+        <script>
+            function flip(amount) {
+                for (i= 0; i + 1 < amount; i++) {
+                    setTimeout(() => {  document.querySelector("#"+i.toString()).innerText = amount-i-1; }, 2000);
+                    console.log(i);
+                }
+            }
+        </-script>
+    </head>
+    <body>
+        <span id="0">0</span>
+        <span id="1">1</span>
+        <span id="2">2</span>
+        <span id="3">3</span>
+        <span id="4">4</span>
+        <span id="5">5</span>
+        <span id="6">6</span>
+        <span id="7">7</span>
+        <span id="8">8</span>
+        <span id="9">9</span>
+        <button id="b1" class="mybutton" onclick="flip(10);">Change</button>
+        <button id="b2" class="mybutton">Change Back</button> 
+    </body>
+</html> -->
+<!-- ^^^my code^^^ -->
+<html>
+    <head>
+        <title>Change HTML</title>
+        <link rel="stylesheet" href="https://hooman1130.github.io/KatsuProblemsGuide/sources/css/dark.css">
+    </head>
+    <body>
+        <span id='numbers'>0 1 2 3 4 5 6 7 8 9</span>
+        <button id="b1" class="mybutton" onclick="if(!running){flip(10);running=true}">Change</button>
+    </body>
+    <script>
+        var running = false;
+        function flip(amount){
+            var list = document.querySelector('#numbers').innerText.split(' ');
+            var list2 = document.querySelector('#numbers').innerText.split(' ');
+            for(var i = 0; i < list.length;i++){
+                list[i] = parseInt(list[i]);
+            }
+            list.reverse();
+            var count = 0;
+            
+            var replacer = setInterval(()=>{
+                var string = '';
+                for(let i = 0;i < count;i++){
+                    list2[i] = list[i];
+                }
+                string= list2.join();
+                document.querySelector('#numbers').innerText = string.replaceAll(',',' ');
+                count++;
+                if(count == list.length+1){
+                    clearInterval(replacer);
+                    running = false;
+                }
+                },2000);
+            
+        }
+    </script>
+</html>
+<!-- ^^^DarkZCore-senpai's code-->
+<!-- Thank you, DarkZCore-senpai-->
