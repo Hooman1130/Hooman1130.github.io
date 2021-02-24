@@ -38,7 +38,7 @@
     </noscript>
     <script>
         function buttonLink(link) {
-            document.getElementById(link).onclick = function () { open("../js/"+link+".html"); };
+            document.querySelector("#"+link).onclick = function () { open("../js/"+link+".html"); };
         }
         buttonLink("edit");
         buttonLink("quiz");
