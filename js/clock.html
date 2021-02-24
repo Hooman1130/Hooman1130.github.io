@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<body>
+    <p id="clock" class="time">
+        Clock?
+    </p>
+</body>
+<script>
+    setInterval(()=>{
+        var d = new Date();
+        console.log(document.querySelector("p.time#clock"));
+        document.querySelector("p#clock.time").innerText = d;
+    },10);
+</script>
