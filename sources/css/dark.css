@@ -7,8 +7,8 @@ html, body, input, textarea, select, button {
     background-color: #000000;
 }
 button.mybutton {
-    width: 10vw;
-    height: 5vw;
+    width: 8vw;
+    height: 4vw;
     font-size: 1.25em;
 }
 button > innerText {

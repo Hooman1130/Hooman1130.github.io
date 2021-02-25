@@ -4,7 +4,7 @@
     <noscript>
         <style> .jsonly { display: none } </style>
     </noscript>
-    <link rel="stylesheet" href="../KatsuProblemsGuide/sources/css/dark.css">
+    <link rel="stylesheet" href="../sources/css/dark.css">
     <link rel="icon" href="https://cdn2.iconfinder.com/data/icons/hacker-solid/100/hacker_hacker_human_-512.png">
     <title>JS Projects</title>
 </head>
@@ -30,15 +30,15 @@
         <p>If you're seeing this message, that means you have JavaScript disabled. Any above buttons that may appear will not work.<br>
         Instead, use the following links.
         <ul>
-            <li><a href="../js/edit.html"><button>Edit</button></a></li>
-            <li><a href="../js/quiz.html"><button>Quiz</button></a></li>
-            <li><a href="../js/open.html"><button>Do not click</button></a></li>
+            <li><a href="./js/edit.html"><button>Edit</button></a></li>
+            <li><a href="./js/quiz.html"><button>Quiz</button></a></li>
+            <li><a href="./js/open.html"><button>Do not click</button></a></li>
         </ul>
         </p>
     </noscript>
     <script>
         function buttonLink(link) {
-            document.querySelector("#"+link).onclick = function () { open("../js/"+link+".html"); };
+            document.querySelector("#"+link).onclick = function () { open("./js/"+link+".html"); };
         }
         buttonLink("edit");
         buttonLink("quiz");
