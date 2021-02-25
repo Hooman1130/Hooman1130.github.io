@@ -9,7 +9,7 @@ html, body, input, textarea, select, button {
 button.mybutton {
     width: 20vw;
     height: auto;
-    font-size: 1.25rem;
+    font-size: 1.25em;
 }
 button > innerText {
     margin-right: 20%;
