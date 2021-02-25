@@ -1,5 +1,6 @@
 function revealOne(id, href) {
     document.querySelector("a#"+id).setAttribute("href", href);
+    console.log(href);
 }
 function reveal(site) {
     if (site=="yt") {
