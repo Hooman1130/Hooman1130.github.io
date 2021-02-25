@@ -1,0 +1,90 @@
+html {
+    background-color: #920464;
+}
+::selection, ::-moz-selection {
+    background: #00000000 !important;
+}
+img.louis-img {
+    width: 100%;
+    height: auto;
+}
+.img {
+    position: relative;
+    width: 480px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.head {
+    position: absolute;
+    color: white;
+    font-size: 120px;
+    top: -6.696452487%;
+    left: 31.25%;
+}
+a.wack {
+    position: absolute; 
+    color: #00000000;
+    bottom: 42%;
+    left: 35%;
+    font-size: 19px;
+    text-decoration: none;
+}
+a:hover.wack {
+    color: #fed0ae99;
+}
+.ohno {
+    position: absolute;
+    color: gold;
+    background-color: #920465aa;
+    font-size: 20px;
+    bottom: 33.482262436%;
+    left: 10.4%;
+}
+.louis {
+    position: absolute;
+    color: white;
+    background-color: #920465ab;
+    font-size: 20px;
+    bottom: 10%;
+    left: 5%;
+}
+a {
+    color: goldenrod;
+}
+a:visited {
+    color: darkgoldenrod;
+}
+a:hover {
+    color: gold;
+}
+a.eye {
+    position: absolute;
+    color: #00000000;
+    top: 192px;
+    right: 137px;
+    text-decoration: none;
+}
+a:hover.eye {
+    color: #9f000099
+}
+.mineta-a {
+    position: absolute;
+    left: 34px;
+    bottom: 14px;
+}
+.mineta-i {
+    width: 11%;
+    height: auto;
+    opacity: 0%;
+}
+:hover.mineta-i {
+    opacity: 75%;
+}
+.veryHidden {
+    position: absolute;
+    left: 5px;
+    top: 300px;
+    color: #00000000 !important;
+}
