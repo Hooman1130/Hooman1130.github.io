@@ -2,18 +2,30 @@
     <head>
         <title>bouken da bouken</title>
         <link rel="stylesheet" href="../../sources/css/dark.css">
-        <script>document.designMode='on';</script>
     </head>
     <body>
         <h3>
-            <a class="hiddenlink" href="https://youtu.be/dQw4w9WgXcQ" title='hey girlie'>
-                <p>
+            <p>
+                <a class="hiddenlink" href="https://youtu.be/dQw4w9WgXcQ" title='hey girlie'>
                     osmanthus wine tastes the same as I remember... but where are those who share the memories? <br>
                     COOL IT! <br>
-                    FREEZE! <br>
+                </a>
+                <span class='fool'>
+                    FREEZE!
+                </span> <br>
+                <a class="hiddenlink" href="https://youtu.be/dQw4w9WgXcQ" title='calvary with no horse'>
                     DODGE THIS! <br>
-                </p>
-            </a>
+                </a>
+            </p>
         </h3>
     </body>
+    <script>
+        document.querySelector('span.fool').onclick = function() {
+          if (document.designMode == 'off')  {
+            document.designMode = 'on';
+          } else {
+              document.designMode = 'off';
+          }
+        }
+    </script>
 </html>
